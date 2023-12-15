@@ -2,7 +2,7 @@
 > A fork of [@lw-lonewolf/Realm-of-Enigmas](https://github.com/lw-lonewolf/Realm-of-Enigmas/tree/engine-development)
 > Made as a university project.
 
-A C++ based graphics top-down platformer game made with SFML.
+A C++ based graphics top-down story game made with SFML.
 
 ## How do I try it out?
 You can compile the sources manually or run the release executables

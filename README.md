@@ -20,7 +20,7 @@ sudo apt install git make cmake clang libsfml-dev
 Next, clone the repo, and compile the code.
 
 ```sh
-git clone https://github.com/thomas-catt/enigma-game.git
+git clone https://github.com/ArhamKhurram/Realm-Of-Enigmas.git
 cd enigma-game
 ```
 

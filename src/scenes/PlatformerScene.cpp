@@ -162,6 +162,7 @@ Scene initPlatformerScene() {
 
     scene.animatedSprites[0] = playerChar;
     scene.animatedSprites[0].position = sf::Vector2f(500, platformerPlayerOrgY);
+    scene.animatedSprites[0].setScale(1.5f,1.5f);
     scene.animatedSprites[0].verticalOffset = PLAYER_SPRITE_RIGHT;
     scene.animatedSprites[0].animFrames = PLAYER_ANIM_FRAMES;
     scene.animatedSprites[0].animSpeed = PLAYER_ANIM_SPEED;

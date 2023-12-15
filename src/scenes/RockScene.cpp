@@ -122,7 +122,7 @@ void RockSceneRender(sf::RenderWindow& window) {
         window.draw(sceneRocks[i]);
     }
 
-    sf::Text timeIndicator("Distance left: " + std::to_string((int)(totalRockGameTime - timeElapsed)) + "m", UI_FONT_BODY);
+    sf::Text timeIndicator("Time left: " + std::to_string((int)(totalRockGameTime - timeElapsed)) + "m", UI_FONT_BODY);
     timeIndicator.setPosition(centerByDimensions(sf::Vector2f(player.sprite.getPosition().x, 460), sf::Vector2i(timeIndicator.getGlobalBounds().width, 1), true));
     window.draw(dropShadow(timeIndicator));
     window.draw(timeIndicator);

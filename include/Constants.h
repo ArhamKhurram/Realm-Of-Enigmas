@@ -177,6 +177,18 @@ struct NPC
                         // the NPC is null.
     float scaleX = 1;
     float scaleY = 1;
+
+    // Function to set the scale of the NPC
+    void setScale(float x, float y) {
+        scaleX = x;
+        scaleY = y;
+    }
+
+    // Function to apply the scale to the sprite
+    void applyScale(sf::Sprite& sprite) const {
+        sprite.setScale(scaleX, scaleY);
+    }
+
     int animSpeed;
 };
 

@@ -1,3 +1,5 @@
+// Note A Part Of The Final Game
+
 const int MaxSnakeLength = 6;
 
  struct Snake {
